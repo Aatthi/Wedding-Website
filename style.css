@@ -2,11 +2,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-image: url(Images/atmosphere-background-bright-clouds-19670.jpg);
 }
 
 body {
-	margin: 10px 50px 0 50px;
+	margin: 10px 150px 0 150px;
 }
 
 .heading {
@@ -35,7 +34,7 @@ header nav li {
 	display: inline-flex;
 	font-size: 20px;
 
-	padding: 10px 30px;
+	padding: 10px 110px;
 }
 
 header nav li:hover {
@@ -44,9 +43,26 @@ header nav li:hover {
 	transition: ease-in-out 0.3s;
 }
 
+main {
+}
+
 .main-photo {
 	display: block;
 	width: 100%;
 	border-radius: 30px;
 	margin: 0 auto;
+	box-shadow: 10px 10px 10px 10px rgb(200, 200, 200);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	background: rgb(243, 243, 243);
 }
