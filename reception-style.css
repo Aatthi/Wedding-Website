@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	max-height: 100vh;
+}
+
+body {
+	margin: 10px 150px 0 150px;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: 'Caveat', cursive;
+	font-size: 40px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+
+header nav li {
+	display: inline-flex;
+	font-size: 18px;
+	font-family: 'Lexend Zetta', sans-serif;
+	padding: 10px 90px;
+}
+
+header nav li:hover {
+	background: #f8d4da;
+	border-radius: 20px;
+	transition: ease-in-out 0.3s;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	background: none;
+}
+
+.main-photo {
+	margin: 20px 100px;
+	width: 50%;
+	border-radius: 30px;
+	position: absolute;
+	left: 0;
+	box-shadow: 2px 2px 2px 2px rgb(200, 200, 200);
+}
+
+.venue-details {
+	position: absolute;
+	right: 0;
+	top: 40%;
+	width: 40%;
+}
+
+.venue-details h2 {
+	padding: 30px 0;
+	position: relative;
+	left: 15%;
+}
+
+.venue-details h4 {
+	padding: 10px 0;
+	font-family: 'Lexend Zetta', sans-serif;
+}
+
+.venue-details h4 strong {
+	padding: 10px 0;
+	font-family: 'Lexend Zetta', sans-serif;
+	text-decoration: underline;
+}
