@@ -32,9 +32,9 @@ header {
 
 header nav li {
 	display: inline-flex;
-	font-size: 20px;
-
-	padding: 10px 110px;
+	font-size: 18px;
+	font-family: 'Lexend Zetta', sans-serif;
+	padding: 10px 90px;
 }
 
 header nav li:hover {
