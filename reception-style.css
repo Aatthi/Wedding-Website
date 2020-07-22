@@ -90,3 +90,12 @@ a:hover {
 	font-family: 'Lexend Zetta', sans-serif;
 	text-decoration: underline;
 }
+
+@media (max-width: 1200px) {
+	header nav li {
+		display: inline-flex;
+		font-size: 18px;
+		font-family: 'Lexend Zetta', sans-serif;
+		padding: 10px 20px;
+	}
+}
