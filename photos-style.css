@@ -78,6 +78,14 @@ main {
 	margin: 20px 100px;
 }
 
+.photo-7 {
+	grid-column: span 2;
+}
+
+.photo-11 {
+	grid-column: span 2;
+}
+
 ::-webkit-scrollbar {
 	width: 10px;
 }
