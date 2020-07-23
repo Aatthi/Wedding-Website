@@ -105,3 +105,12 @@ main {
 ::-webkit-scrollbar-thumb:hover {
 	background: #f8d4da;
 }
+
+@media (min-width: 1000px) {
+	header nav li {
+		display: inline-flex;
+		font-size: 18px;
+		font-family: 'Lexend Zetta', sans-serif;
+		padding: 10px 50px;
+	}
+}
