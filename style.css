@@ -88,3 +88,15 @@ a:hover {
 		padding: 10px 50px;
 	}
 }
+
+@media (max-width: 1270px) {
+	header nav li {
+		padding: 0 30px;
+	}
+
+	.main-photo {
+		width: 900px;
+		margin: 0 auto;
+		height: 650px;
+	}
+}
