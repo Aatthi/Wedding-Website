@@ -108,12 +108,28 @@ main {
 	background: #f8d4da;
 }
 
+@media (max-width: 1260px) {
+	header nav li {
+	}
+}
+
 @media (min-width: 1000px) {
 	header nav li {
 		display: inline-flex;
 		font-size: 18px;
 		font-family: 'Lexend Zetta', sans-serif;
-		padding: 10px 50px;
+		padding: 0 30px;
+	}
+}
+
+@media (max-width: 1100px) {
+	header nav ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	header nav ul li {
+		margin: 5px 0;
 	}
 }
 
