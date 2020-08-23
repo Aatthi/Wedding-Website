@@ -36,6 +36,7 @@ header nav li {
 	font-size: 18px;
 	font-family: 'Lexend Zetta', sans-serif;
 	padding: 10px 90px;
+	margin: 0 40px;
 }
 
 header nav li:hover {
@@ -108,17 +109,16 @@ main {
 	background: #f8d4da;
 }
 
-@media (max-width: 1260px) {
-	header nav li {
-	}
-}
-
 @media (min-width: 1000px) {
 	header nav li {
 		display: inline-flex;
 		font-size: 18px;
+		flex-wrap: nowrap;
 		font-family: 'Lexend Zetta', sans-serif;
-		padding: 0 30px;
+		padding: 10px 10px;
+		margin: 0 50px;
+		padding: 10px 10px;
+		margin: 0 30px;
 	}
 }
 
@@ -126,6 +126,8 @@ main {
 	header nav ul {
 		display: flex;
 		flex-direction: column;
+		padding: 10px 10px;
+		margin: 0 50px;
 	}
 
 	header nav ul li {
@@ -213,5 +215,11 @@ main {
 		font-size: 18px;
 		font-family: 'Lexend Zetta', sans-serif;
 		justify-content: space-evenly;
+	}
+}
+
+@media (max-width: 491px) {
+	header nav li {
+		padding: 5px 10px;
 	}
 }
