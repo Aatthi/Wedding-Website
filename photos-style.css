@@ -223,3 +223,10 @@ main {
 		padding: 5px 10px;
 	}
 }
+
+.lightbox {
+	-webkit-transition: top 300ms;
+	-moz-transition: top 300ms;
+	-o-transition: top 300ms;
+	transition: top 300ms;
+}
