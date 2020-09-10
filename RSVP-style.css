@@ -64,6 +64,7 @@ input {
 	padding: 10px;
 	border-radius: 10px;
 	border: 2px solid black;
+	outline: none;
 }
 
 label {
@@ -78,6 +79,7 @@ textarea {
 	border: 2px solid black;
 	margin-left: 7px;
 	margin: 10px 7px;
+	outline: none;
 }
 
 textarea:hover {
@@ -89,19 +91,19 @@ textarea:hover {
 	justify-content: center;
 }
 
-input[type=submit] {
-	background: white;
-	border: none;
-	font-family: 'Lexend Zetta', sans-serif;
+.submit button {
+	border: 2px solid black;
+	background: transparent;
+	padding: 15px 30px;
 	font-size: 30px;
-	width: 25%;
+	border-radius: 40px;
+	margin: 50px 0;
 }
 
-input[type=submit]:hover {
+.submit button:hover {
+	border: 2px solid #f8d4da;
 	background: #f8d4da;
-	border-radius: 20px;
-	transition: ease-in-out 0.3s;
-	border: none;
+	transition: 0.2s;
 }
 
 input:hover {
