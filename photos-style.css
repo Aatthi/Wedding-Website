@@ -37,12 +37,12 @@ header nav li {
 	font-family: 'Lexend Zetta', sans-serif;
 	padding: 10px 90px;
 	margin: 0 40px;
+	transition: all 0.3s ease-out;
 }
 
 header nav li:hover {
 	background: #f8d4da;
 	border-radius: 20px;
-	transition: ease-in-out 0.3s;
 }
 
 a {
