@@ -73,9 +73,11 @@ main {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
 	border-radius: 20px;
 	box-shadow: 5px 5px 5px 5px rgb(200, 200, 200);
 	transition: all 0.2s ease-out;
+	cursor: pointer;
 }
 
 .container {
@@ -86,9 +88,48 @@ main {
 	margin: 20px 100px;
 	justify-items: center;
 	align-items: center;
+	min-height: 100vh;
 }
 .container img:hover {
 	transform: scale(1.1);
+}
+
+.modal {
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.modal.open {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.full-img {
+	position: absolute;
+	height: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0.4);
+	transition: all 0.25s ease-out;
+}
+
+.full-img.open {
+	transform: translate(-50%, -50%) scale(1.2);
+}
+
+.modal p {
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-50%, -5%);
 }
 
 .photo-7 {
@@ -234,7 +275,7 @@ main {
 	}
 }
 
-.lightbox {
+/* .lightbox {
 	-webkit-transition: top 0.1s;
 	-moz-transition: top 0.1s;
 	-o-transition: top 0.1s;
@@ -243,4 +284,4 @@ main {
 	left: 0;
 	width: 100%;
 	height: 100%;
-}
+} */
