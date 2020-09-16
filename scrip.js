@@ -9,7 +9,7 @@ previews.forEach((previews) => {
 		original.classList.add('open');
 		//dynamic change in text and image
 		const originalSrc = previews.getAttribute('data-original');
-		original.src = `./Images/Proposal Photos/${originalSrc}`;
+		original.src = `./Images/Proposal-Photos/${originalSrc}`;
 	});
 });
 
