@@ -235,8 +235,12 @@ main {
 }
 
 .lightbox {
-	-webkit-transition: top 300ms;
-	-moz-transition: top 300ms;
-	-o-transition: top 300ms;
-	transition: top 300ms;
+	-webkit-transition: top 0.1s;
+	-moz-transition: top 0.1s;
+	-o-transition: top 0.1s;
+	transition: top 0.1s;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
