@@ -27,14 +27,29 @@ h2 {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	justify-content: center;
+	align-items: flex-end;
 	background-attachment: fixed;
+}
+
+.heading {
+	margin: 0 60px 0px 0;
 }
 
 header {
 	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
-	margin: 20px 0;
+	margin: 0 80px 0px 0;
+	text-align: center;
+}
+
+header nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 header a {
@@ -52,6 +67,13 @@ header nav li {
 header nav li:hover {
 	background: #f8d4da;
 	border-radius: 20px;
+}
+
+p {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
 }
 
 a {
