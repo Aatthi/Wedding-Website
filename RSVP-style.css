@@ -6,7 +6,11 @@
 }
 
 body {
-	margin: 10px 150px 0 150px;
+	background-image: url(Images/Proposal-Photos/Proposal-11.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	background-attachment: fixed;
 }
 
 .heading {
@@ -58,28 +62,67 @@ a:hover {
 	background: none;
 }
 
+.form-container {
+	margin: 0 auto;
+	width: 60%;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+}
+
+input::placeholder {
+	color: white;
+	font-size: 15px;
+}
+
+textarea::placeholder {
+	color: white;
+	font-size: 15px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 input {
-	width: 100%;
 	margin: 10px;
 	padding: 10px;
 	border-radius: 10px;
 	border: 2px solid black;
 	outline: none;
+	background: transparent;
+	color: white;
+	font-size: 25px;
+}
+
+.Fname {
+	width: 60%;
+}
+
+.email {
+	width: 60%;
 }
 
 label {
-	font-size: 18px;
+	font-size: 22px;
+}
+
+.Diet {
+	width: 60%;
+	height: 00px;
 }
 
 textarea {
 	height: 200px;
-	width: 100%;
+	width: 70%;
 	border-radius: 20px;
 	padding: 10px 20px;
 	border: 2px solid black;
 	margin-left: 7px;
 	margin: 10px 7px;
 	outline: none;
+	background: transparent;
 }
 
 textarea:hover {
@@ -92,18 +135,20 @@ textarea:hover {
 }
 
 .submit button {
-	border: 2px solid black;
+	border: 2px solid #f8d4da;
 	background: transparent;
 	padding: 15px 30px;
 	font-size: 30px;
 	border-radius: 40px;
 	margin: 50px 0;
+	color: white;
 }
 
 .submit button:hover {
 	border: 2px solid #f8d4da;
 	background: #f8d4da;
 	transition: 0.2s;
+	color: black;
 }
 
 input:hover {
