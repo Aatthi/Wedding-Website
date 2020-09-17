@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	background-color: #f8d4da5b;
+}
+
 .heading {
 	display: flex;
 	flex-direction: column;
@@ -23,6 +27,7 @@ h2 {
 .media-wrapper {
 	background-image: url(Images/Proposal-Photos/Proposal-7.png);
 	background-size: cover;
+
 	background-repeat: no-repeat;
 	min-height: 100vh;
 	display: flex;
@@ -33,7 +38,7 @@ h2 {
 }
 
 .heading {
-	margin: 0 60px 0px 0;
+	margin: 0 60px 0;
 }
 
 header {
@@ -41,7 +46,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0 110px 0px 0;
+	margin: 0 20px 0 0;
 	text-align: center;
 }
 
@@ -50,6 +55,7 @@ header nav {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin: 20px 0;
 }
 
 header a {
@@ -59,7 +65,7 @@ header a {
 
 header nav li {
 	display: inline-flex;
-
+	margin: 10px 0;
 	padding: 10px 90px;
 	transition: all 0.3s ease-out;
 }
@@ -72,8 +78,11 @@ header nav li:hover {
 p {
 	text-align: center;
 	font-size: 40px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Cutive Mono', monospace;
 	color: black;
+	border-bottom: 2px solid #f8d4da27;
+	border-radius: px;
+	padding: 0 0 3px 0;
 }
 
 a {
@@ -123,14 +132,42 @@ a:hover {
 	}
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 1375px) {
 	header nav li {
-		padding: 0 30px;
+		padding: 10px 90px;
 	}
 
-	.main-photo {
-		width: 900px;
+	header a:visited {
+		color: white;
+	}
+
+	p {
+		color: white;
+	}
+
+	.header-wrapper {
+		background: rgba(0, 0, 0, 0.383);
+		border-radius: 30px;
+		padding: 10px 30px;
 		margin: 0 auto;
-		height: 650px;
+		color: white;
+	}
+}
+
+@media (max-width: 870px) {
+	.media-wrapper {
+		background-position-x: -250px;
+	}
+}
+
+@media (max-width: 870px) {
+	.heading h1 {
+		font-size: 40px;
+		padding: 0;
+		margin: 0;
+	}
+
+	.heading h2 {
+		font-size: 40px;
 	}
 }
