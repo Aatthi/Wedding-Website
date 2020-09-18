@@ -6,13 +6,14 @@
 }
 
 body {
-	margin: 10px 150px 0 150px;
+	margin: 0 150px 0 0;
 }
 
 .heading {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding: 20px 0;
 }
 
 h1 {
@@ -47,11 +48,15 @@ header nav li:hover {
 
 a {
 	text-decoration: none;
+	color: white;
+	cursor: pointer;
 }
 
 a:visited {
 	color: black;
 	text-decoration: none;
+	color: white;
+	cursor: pointer;
 }
 
 a:hover {
@@ -73,9 +78,16 @@ main {
 	justify-content: center;
 	min-height: 100vh;
 	list-style: none;
-	padding: 0 50px;
-	background: rgba(0, 0, 0, 0.603);
-	color: white;
+	padding: 0 20px;
+	background: rgba(0, 0, 0, 0.803);
+
+	margin: 0;
+}
+
+.photo-menu-wrapper li {
+	margin: 50px 0;
+	font-family: 'Lexend Zetta', sans-serif;
+	font-size: 18px;
 }
 
 .photo-container {
