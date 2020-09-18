@@ -110,7 +110,7 @@ label {
 
 .Diet {
 	width: 60%;
-	height: 00px;
+	height: 400px;
 }
 
 textarea {
@@ -123,6 +123,7 @@ textarea {
 	margin: 10px 7px;
 	outline: none;
 	background: transparent;
+	color: white;
 }
 
 textarea:hover {
