@@ -80,14 +80,13 @@ main {
 	list-style: none;
 	padding: 0 20px;
 	background: rgba(0, 0, 0, 0.803);
-
-	margin: 0;
 }
 
 .photo-menu-wrapper li {
 	margin: 50px 0;
 	font-family: 'Lexend Zetta', sans-serif;
 	font-size: 18px;
+	padding: 0 30px;
 }
 
 .photo-container {
@@ -111,10 +110,11 @@ main {
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-template-rows: repeat(auto-fit, minmax(600px, 1fr));
 	grid-gap: 60px;
-	margin: 20px 100px;
-	justify-items: center;
+	margin: 20px 300px;
+	justify-items: flex-end;
 	align-items: center;
 	min-height: 100vh;
+	width: 70%;
 }
 .container img:hover {
 	transform: scale(1.1);
