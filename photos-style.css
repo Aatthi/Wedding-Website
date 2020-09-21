@@ -33,8 +33,13 @@ h2 {
 
 header {
 	display: flex;
-	justify-content: center;
-	margin: 20px 0;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	left: 13%;
+
+	width: 100%;
+	margin: 0 auto;
 }
 
 header nav li {
@@ -233,11 +238,16 @@ main {
 
 @media (max-width: 870px) {
 	.container {
-		display: flex;
-		flex-direction: column;
-		margin: 10px 40px;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+		justify-content: center;
+		width: 100%;
+		margin: 0 auto;
 	}
 
+	.photo-menu-wrapper {
+		display: none;
+	}
 	body {
 		margin: 0 0px 0 0px;
 	}
@@ -262,6 +272,15 @@ main {
 		display: flex;
 		justify-content: center;
 		padding: 0 20px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 }
 
@@ -297,11 +316,11 @@ main {
 	}
 }
 
-@media (min-width: 1120px) {
+@media (max-width: 1604px) {
 	.container {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		grid-template-rows: repeat(auto-fit, minmax(700px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-rows: repeat(auto-fit, minmax(500px, 1fr));
 	}
 }
 
