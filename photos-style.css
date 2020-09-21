@@ -96,7 +96,14 @@ main {
 	margin: 50px 0;
 	font-family: 'Lexend Zetta', sans-serif;
 	font-size: 18px;
-	padding: 0 30px;
+	padding: 10px 30px;
+	transition: all 0.25s ease-out;
+}
+
+.photo-menu-wrapper li:hover {
+	background: #f8d4da;
+	border-radius: 20px;
+	padding: 10px 30px;
 }
 
 .photo-container {
