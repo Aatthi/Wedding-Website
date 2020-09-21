@@ -45,7 +45,7 @@ header {
 header nav li {
 	display: inline-flex;
 	font-size: 18px;
-
+	text-align: center;
 	padding: 10px 90px;
 	margin: 0 40px;
 	transition: all 0.3s ease-out;
@@ -227,8 +227,10 @@ main {
 	header nav ul {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 		padding: 10px 10px;
 		margin: 0 50px;
+		text-align: center;
 	}
 
 	header nav ul li {
@@ -263,15 +265,15 @@ main {
 	}
 
 	header nav li {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-		font-size: 20px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	header {
 		display: flex;
 		justify-content: center;
-		padding: 0 20px;
+		padding: 10 20px;
+		text-align: center;
 	}
 }
 
