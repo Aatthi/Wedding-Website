@@ -84,6 +84,9 @@ a:hover {
 	overflow: hidden;
 }
 
+.container .photo {
+}
+
 .photo-menu-wrapper {
 	position: fixed;
 	display: flex;
@@ -136,6 +139,7 @@ a:hover {
 	min-height: 100vh;
 	width: 80%;
 }
+
 .container img:hover {
 	transform: scale(1.3);
 }
