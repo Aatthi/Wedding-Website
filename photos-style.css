@@ -9,11 +9,21 @@ html {
 	scroll-behavior: smooth;
 }
 
+.body-wrapper {
+	display: flex;
+
+	align-items: center;
+}
+
+.main-wrapper {
+	padding: 0 0 0 300px;
+}
+
 .heading {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px 0;
+	padding: 20px 200px 0 0;
 	width: 100%;
 }
 
@@ -27,12 +37,15 @@ h2 {
 	font-size: 40px;
 }
 
+.header {
+	padding: 0 130px 0 0;
+}
+
 .header-wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-	margin: 0 0 50px 0;
 }
 
 .header ul {
@@ -88,7 +101,6 @@ a:hover {
 }
 
 .photo-menu-wrapper {
-	position: fixed;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -97,7 +109,12 @@ a:hover {
 	min-height: 100vh;
 	list-style: none;
 	padding: 0 20px;
+
 	background: rgba(0, 0, 0, 0.803);
+	position: fixed;
+}
+
+.photo-menu {
 }
 
 .photo-menu-wrapper li {
