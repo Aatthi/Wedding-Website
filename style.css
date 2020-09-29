@@ -137,6 +137,10 @@ a:hover {
 		padding: 10px 90px;
 	}
 
+	a {
+		color: white;
+	}
+
 	header a:visited {
 		color: white;
 	}
