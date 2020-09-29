@@ -384,6 +384,7 @@ a:hover {
 	.container {
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 		grid-template-rows: repeat(auto-fit, minmax(330px, 1fr));
+		grid-gap: 8px;
 	}
 }
 @media (max-width: 491px) {
