@@ -4,10 +4,6 @@
 	box-sizing: border-box;
 }
 
-html {
-	background-color: #f8d4da5b;
-}
-
 .heading {
 	display: flex;
 	flex-direction: column;
