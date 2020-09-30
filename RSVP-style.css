@@ -49,14 +49,18 @@ header ul {
 	align-items: center;
 	font-size: 18px;
 	font-family: 'Lexend Zetta', sans-serif;
-	padding: 10px 90px;
+}
+
+header li {
+	list-style: none;
+	margin: 0 50px;
+	padding: 10px 50px;
 	transition: all 0.3s ease-out;
 }
 
 header nav li:hover {
 	background: #f8d4da;
 	border-radius: 20px;
-	list-style: none;
 }
 
 a {
@@ -194,7 +198,7 @@ input:hover {
 	}
 
 	header li {
-		margin: 20px 0;
+		margin: 10px 0;
 	}
 	.form-wrapper {
 		margin: 20px 0 10px 0;
@@ -232,5 +236,12 @@ input:hover {
 	.form-container {
 		width: 100%;
 		padding: 10px 0;
+	}
+
+	header li {
+		list-style: none;
+		margin: 10px 0px;
+
+		transition: all 0.3s ease-out;
 	}
 }
