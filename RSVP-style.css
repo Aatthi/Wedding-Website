@@ -244,4 +244,8 @@ input:hover {
 
 		transition: all 0.3s ease-out;
 	}
+
+	body {
+		background-position-x: -500px;
+	}
 }

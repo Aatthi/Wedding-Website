@@ -26,7 +26,7 @@
                     <ul>
                         <li> <a href="index.html"> Home</a></li>
                         <li> <a href="photos.html"> Photos</a></li>
-                        <li> <a href="reception.html">Reception Details</a></li>
+                        <!-- <li> <a href="reception.html">Reception Details</a></li> -->
                     </ul>
                 </nav>
            
@@ -36,15 +36,15 @@
 
         <div class="form-wrapper">
         <div class="form-container">
-            <form action="" >
+            <form name="contact" method="POST" data-netlify="true">
                 <!-- <label class="fname-label" for="Fname">Full Name: *</label> -->
-                <input class="Fname"  type="text" placeholder="Full Name" required>
+                <input class="Fname" name="name" type="text" placeholder="Full Name" required>
                 <!-- <label for="email">Email: *</label> -->
-                <input class="email" type="email" placeholder="Email Address" required>
+                <input class="email" name="email" type="email" placeholder="Email Address" required>
                 <!-- <label for="add">Add family members *</label> -->
-                <textarea class="addfamilymember" type="text" placeholder="Add family member's full name"></textarea>
+                <textarea class="addfamilymember" name="Family members" type="text" placeholder="Add family member's full name"></textarea>
                 <!-- <label for="diet">Any Dietry Requirement *</label> -->
-                <textarea class="Diet" type="text" placeholder="Dietary requirement of each family member"></textarea>
+                <textarea class="Diet" type="text" name="Diet" placeholder="Dietary requirement of each family member"></textarea>
                 <div class="submit">
                 <button>Submit</button>
                 </div>

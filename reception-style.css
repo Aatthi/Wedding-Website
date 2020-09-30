@@ -26,12 +26,19 @@ header {
 	margin: 40px 0;
 }
 
+header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 header nav li {
-	display: inline-flex;
 	font-size: 18px;
 	font-family: 'Lexend Zetta', sans-serif;
-	padding: 10px 90px;
+	margin: 0 100px;
 	transition: all 0.3s ease-out;
+	list-style: none;
+	padding: 10px 30px;
 }
 
 header nav li:hover {
@@ -55,9 +62,9 @@ a:hover {
 
 main {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -108,11 +115,45 @@ main img {
 	text-decoration: underline;
 }
 
-@media (min-width: 1000px) {
+@media (max-width: 1139px) {
+	.main-photo {
+		display: none;
+	}
+
+	.venue-details {
+		justify-content: center;
+		align-items: center;
+		margin: 50px 0;
+		text-align: center;
+	}
+
+	.venue-details h2 {
+		font-size: 70px;
+	}
+}
+
+@media (max-width: 1000px) {
 	header nav li {
-		display: inline-flex;
-		font-size: 18px;
-		font-family: 'Lexend Zetta', sans-serif;
-		padding: 10px 50px;
+		margin: 0 50px;
+		transition: all 0.3s ease-out;
+	}
+}
+
+@media (max-width: 675px) {
+	header ul {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+	}
+
+	header nav li {
+		margin: 10px 0;
+	}
+}
+
+@media (max-width: 385px) {
+	.heading h1 {
+		font-size: 50px;
 	}
 }
