@@ -391,6 +391,10 @@ a:hover {
 	.header nav li {
 		padding: 5px 10px;
 	}
+
+	.full-img.open {
+		transform: translate(-50%, -50%) scale(1.1);
+	}
 }
 
 /* .lightbox {
