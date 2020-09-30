@@ -43,8 +43,10 @@ header {
 	margin: 20px 0;
 }
 
-header nav li {
-	display: inline-flex;
+header ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 18px;
 	font-family: 'Lexend Zetta', sans-serif;
 	padding: 10px 90px;
@@ -188,6 +190,10 @@ input:hover {
 		align-items: center;
 		justify-content: center;
 		font-size: 16px;
+	}
+
+	header li {
+		margin: 20px 0;
 	}
 	.form-wrapper {
 		margin: 20px 0 10px 0;
