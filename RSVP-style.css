@@ -172,3 +172,18 @@ textarea:hover {
 input:hover {
 	border: 2px solid #f8d4da;
 }
+
+@media (max-width: 870px) {
+	.form-wrapper {
+		margin: 20px 0 10px 0;
+	}
+
+	.form-container {
+		margin: 0 auto;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.6);
+		color: white;
+		border-radius: 50px;
+		font-family: 'Montserrat', sans-serif;
+	}
+}
